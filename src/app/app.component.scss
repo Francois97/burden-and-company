@@ -1,0 +1,197 @@
+
+@import "@fontsource/playfair-display";
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+
+
+mat-toolbar-row {
+    align-items: center;
+    height: 100%;
+}
+
+.logofont {
+  font-family: 'Hurricane', cursive;
+  font-size: 150%;
+}
+
+// .myfonts {
+//     font-family: 'Playfair Display', serif;
+//     font-size: 400%;
+//     font-style: italic;
+// }
+
+// .title_center {
+//     display: flex;
+//     justify-content: center; /* align horizontal */
+//     align-items: center; /* align vertical */
+// }
+
+// @media screen and (max-width: 768px){
+//     .myfonts {
+//         font-family: 'Playfair Display', serif;
+//         font-size: 5vh;
+//         font-style: italic;
+//     }
+
+//     mat-toolbar {
+//         height: 15vh;
+//     }
+// }
+
+// @media screen and (min-width: 768px){
+//     .myfonts {
+//         font-family: 'Playfair Display', serif;
+//         font-size: 5vw;
+//         font-style: italic;
+//     }
+
+//     mat-toolbar {
+//         height: 12vh;
+//     }
+// }
+
+// .menu-spacer {
+//     flex: 1 1 auto;
+// }
+
+// .nav-spacer {
+//     flex: 2vw;
+// }
+
+// .custom-toolbar {
+//     font-size: 2vw;
+//     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+//     color: white;
+// }
+
+// #bottom {
+//     position: absolute;
+//     bottom: 4%;
+//     left: 0;
+// }
+
+// mat-sidenav {
+//     width: 30%;
+// }
+
+
+
+// "https://mdbootstrap.com/img/Photos/Others/img (40).webp"
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 90%;
+}
+
+.view {
+    background: url('../assets/image_2.jpg')no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .navbar {
+    background-color: transparent;
+  }
+  
+  .top-nav-collapse {
+    background-color: #4285F4;
+  }
+
+  ::ng-deep .boldnav {
+    font-size: 150%;
+  }
+
+  .namefont {
+    font-size: 250%;
+    font-style:italic;
+    font-weight: 500;
+  }
+
+  .menubtn {
+    padding: 0 6px 0 6px;
+    margin: 6px 8px 6px 8px;
+    min-width: 100px;
+    border-radius: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    border: white;
+    border-style: solid;
+    outline: none;
+  }
+
+  .mat-stroked-button:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    // ::ng-deep .navbar {
+    //     background-color: #027033!important;
+    //     opacity: 0.75;
+    //   }
+
+    ::ng-deep .boldnav {
+      font-weight: 900;
+      font-size: 100%;
+    }
+  }
+
+  .text-focus-in{-webkit-animation:text-focus-in 1s ease-in both;animation:text-focus-in 1s ease-in both}
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+  }
+  @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  

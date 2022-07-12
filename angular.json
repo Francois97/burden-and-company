@@ -31,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -40,8 +42,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -107,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "burden-and-company"
+  "cli": {
+    "analytics": "fe72ac17-db99-4be9-ac27-4a57668b5adc"
+  }
 }
